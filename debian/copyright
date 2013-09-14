@@ -1,0 +1,118 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: lokalize
+Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
+                  Nick Shaforostoff <shafff@ukr.net>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 2007-2013, Nick Shaforostoff <shafff@ukr.net>
+           2009, Viesturs Zarins <viesturs.zarins@mii.lu.lv>
+License: GPLv2 or GPLv3 or later editions as approved by KDE eV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ versions 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: src/catalog/catalog.cpp
+       src/catalog/catalog.h
+       src/catalog/catalog_private.h
+       src/catalog/gettext/catalogfileplugin.h
+       src/catalog/gettext/catalogitem.cpp
+       src/catalog/gettext/catalogitem.h
+       src/catalog/gettext/catalogitem_private.h
+       src/catalog/gettext/exportplugin.cpp
+       src/catalog/gettext/gettextexport.cpp
+       src/catalog/gettext/gettextexport.h
+       src/catalog/gettext/gettextimport.cpp
+       src/catalog/gettext/gettextimport.h
+       src/catalog/gettext/importplugin.cpp
+       src/catalog/gettext/importplugin_private.h
+       src/catalog/pos.cpp
+       src/common/flowlayout.cpp
+       src/common/flowlayout.h
+       src/editorview.cpp
+       src/glossary/glossaryview.cpp
+       src/tm/tmmanager.cpp
+       src/tm/tmmanager.h
+       src/webquery/myactioncollectionview.cpp
+       src/webquery/myactioncollectionview.h
+       src/webquery/webquerycontroller.cpp
+       src/webquery/webquerycontroller.h
+       src/webquery/webqueryview.cpp
+       src/webquery/webqueryview.h
+Copyright: 1999,2000, Matthias Kiefer <matthias.kiefer@gmx.de>
+           2007,2009,2011, Nick Shaforostoff <shafff@ukr.net>
+           2005,2006, Nicolas GOUTTE <goutte@kde.org>
+           2002,2003, Stanislav Visnovsky <visnovsky@kde.org>
+           2004,2007, Trolltech ASA. All rights reserved
+License: GPL-2+
+
+Files: src/tm/qamodel.cpp
+Copyright: 2011,2012, Nick Shaforostoff <shafff@ukr.net>
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+Files: doc/*
+Copyright: 2007-2009, Nick Shaforostoff <shaforostoff@kde.ru>
+License: GFDL-1.2+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
