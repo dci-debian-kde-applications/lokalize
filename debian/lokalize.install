@@ -5,9 +5,9 @@ usr/share/icons/hicolor/128x128/apps/lokalize.png
 usr/share/icons/hicolor/32x32/apps/lokalize.png
 usr/share/icons/hicolor/64x64/apps/lokalize.png
 usr/share/icons/hicolor/scalable/apps/lokalize.svgz
-usr/share/kde4/apps/lokalize/icons/*
 usr/share/kde4/apps/lokalize/editorui.rc
 usr/share/kde4/apps/lokalize/filesearchtabui.rc
+usr/share/kde4/apps/lokalize/icons/*
 usr/share/kde4/apps/lokalize/lokalize.notifyrc
 usr/share/kde4/apps/lokalize/lokalizemainwindowui.rc
 usr/share/kde4/apps/lokalize/projectmanagerui.rc
