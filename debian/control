@@ -1,7 +1,7 @@
 Source: lokalize
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -15,8 +15,8 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/lokalize.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/lokalize.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/lokalize.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/lokalize.git
 
 Package: lokalize
 Architecture: any
