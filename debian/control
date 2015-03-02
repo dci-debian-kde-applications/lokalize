@@ -9,9 +9,18 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
+               extra-cmake-modules (>= 0.0.10),
+               kdoctools-dev,
+               kio-dev,
+               kross-dev,
                libhunspell-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5i18n-dev,
+               libkf5notifications-dev,
+               libkf5sonnet-dev,
+               libkf5xmlgui-dev,
+               libqtbase5-dev (>= 5.2.0),
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
@@ -22,7 +31,7 @@ Package: lokalize
 Architecture: any
 Section: devel
 Depends: kdesdk-strigi-plugins,
-         libqt4-sql-sqlite,
+         libqt5sql5-sqlite,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: gettext,
