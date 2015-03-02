@@ -20,8 +20,8 @@ Build-Depends: cmake,
                libkf5notifications-dev,
                libkf5sonnet-dev,
                libkf5xmlgui-dev,
-               libqtbase5-dev (>= 5.2.0),
-               pkg-kde-tools (>= 0.12)
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.2.0)
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/lokalize.git
