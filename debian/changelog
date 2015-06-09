@@ -1,4 +1,4 @@
-lokalize (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
+lokalize (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * manual merge 
@@ -9,7 +9,7 @@ lokalize (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:21:50 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:31:49 +0200
 
 lokalize (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
