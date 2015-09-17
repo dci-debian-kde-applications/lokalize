@@ -1,3 +1,9 @@
+lokalize (4:15.08.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:49:32 +0200
+
 lokalize (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
