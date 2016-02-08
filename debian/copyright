@@ -28,7 +28,127 @@ License: GPL-2 or GPL-3 or GPL-KDEeV
  versions 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
  `/usr/share/common-licenses/GPL-3'.
 
-Files: src/catalog/catalog.cpp
+Files: src/actionproxy.cpp
+       src/actionproxy.h
+       src/alttransview.cpp
+       src/alttransview.h
+       src/binunitsview.cpp
+       src/binunitsview.h
+       src/catalog/alttrans.h
+       src/catalog/catalogcapabilities.h
+       src/catalog/catalogstorage.h
+       src/catalog/catalogstring.cpp
+       src/catalog/catalogstring.h
+       src/catalog/cmd.cpp
+       src/catalog/cmd.h
+       src/catalog/gettext/gettextstorage.cpp
+       src/catalog/gettext/gettextstorage.h
+       src/catalog/gettextheader.cpp
+       src/catalog/gettextheader.h
+       src/catalog/note.h
+       src/catalog/phase.cpp
+       src/catalog/phase.h
+       src/catalog/pos.h
+       src/catalog/state.h
+       src/catalog/ts/tsstorage.cpp
+       src/catalog/ts/tsstorage.h
+       src/catalog/xliff/xliffstorage.cpp
+       src/catalog/xliff/xliffstorage.h
+       src/cataloglistview/cataloglistview.cpp
+       src/cataloglistview/cataloglistview.h
+       src/cataloglistview/catalogmodel.cpp
+       src/cataloglistview/catalogmodel.h
+       src/common/diff.cpp
+       src/common/diff.h
+       src/common/domroutines.cpp
+       src/common/domroutines.h
+       src/common/fastsizehintitemdelegate.cpp
+       src/common/fastsizehintitemdelegate.h
+       src/common/headerviewmenu.cpp
+       src/common/headerviewmenu.h
+       src/common/htmlhelpers.cpp
+       src/common/languagelistmodel.cpp
+       src/common/languagelistmodel.h
+       src/common/stemming.cpp
+       src/common/stemming.h
+       src/common/termlabel.cpp
+       src/common/termlabel.h
+       src/completionstorage.cpp
+       src/completionstorage.h
+       src/editortab.cpp
+       src/editortab.h
+       src/editortab_findreplace.cpp
+       src/editorview.h
+       src/filesearch/filesearchtab.cpp
+       src/filesearch/filesearchtab.h
+       src/glossary/glossary.cpp
+       src/glossary/glossary.h
+       src/glossary/glossaryview.h
+       src/glossary/glossarywindow.cpp
+       src/glossary/glossarywindow.h
+       src/glossary/tbxparser_obsolete.cpp
+       src/glossary/tbxparser_obsolete.h
+       src/lokalizemainwindow.cpp
+       src/lokalizemainwindow.h
+       src/lokalizesubwindowbase.h
+       src/main.cpp
+       src/mergemode/mergecatalog.cpp
+       src/mergemode/mergecatalog.h
+       src/mergemode/mergeview.cpp
+       src/mergemode/mergeview.h
+       src/msgctxtview.cpp
+       src/msgctxtview.h
+       src/multieditoradaptor.h
+       src/nokde-stubs/klocalizedstring.h
+       src/nokde-stubs/lokalizesubwindowbase.cpp
+       src/nokde-stubs/prefs.h
+       src/nokde-stubs/welcometab.cpp
+       src/nokde-stubs/welcometab.h
+       src/noteeditor.cpp
+       src/noteeditor.h
+       src/phaseswindow.cpp
+       src/phaseswindow.h
+       src/prefs/prefs.cpp
+       src/prefs/prefs.h
+       src/project/kde-i18n-lists.h
+       src/project/project.cpp
+       src/project/project.h
+       src/project/projectmodel.cpp
+       src/project/projectmodel.h
+       src/project/projecttab.cpp
+       src/project/projecttab.h
+       src/project/projectwidget.cpp
+       src/project/projectwidget.h
+       src/syntaxhighlighter.cpp
+       src/syntaxhighlighter.h
+       src/tm/dbfilesmodel.cpp
+       src/tm/dbfilesmodel.h
+       src/tm/jobs.cpp
+       src/tm/jobs.h
+       src/tm/qamodel.h
+       src/tm/qaview.cpp
+       src/tm/qaview.h
+       src/tm/rule.h
+       src/tm/tmentry.h
+       src/tm/tmscanapi.cpp
+       src/tm/tmscanapi.h
+       src/tm/tmtab.cpp
+       src/tm/tmtab.h
+       src/tm/tmview.cpp
+       src/tm/tmview.h
+       src/tools/widgettextcaptureconfig.cpp
+       src/tools/widgettextcaptureconfig.h
+       src/xlifftextedit.cpp
+       src/xlifftextedit.h
+Copyright: 2007-2015, Nick Shaforostoff <shafff@ukr.net>
+           2008-2014, Nick Shaforostoff <shaforostoff@gmail.com>
+           2008-2014, Nick Shaforostoff <shaforostoff@kde.ru>
+           2009, Viesturs Zarins <viesturs.zarins@mii.lu.lv>
+License: GPL-2+3+KDEeV
+
+Files: COPYING
+       lokalize.appdata.xml
+       src/catalog/catalog.cpp
        src/catalog/catalog.h
        src/catalog/catalog_private.h
        src/catalog/gettext/catalogfileplugin.h
@@ -47,6 +167,7 @@ Files: src/catalog/catalog.cpp
        src/common/flowlayout.h
        src/editorview.cpp
        src/glossary/glossaryview.cpp
+       src/tm/qamodel.cpp
        src/tm/tmmanager.cpp
        src/tm/tmmanager.h
        src/webquery/myactioncollectionview.cpp
@@ -55,31 +176,25 @@ Files: src/catalog/catalog.cpp
        src/webquery/webquerycontroller.h
        src/webquery/webqueryview.cpp
        src/webquery/webqueryview.h
-Copyright: 1999,2000, Matthias Kiefer <matthias.kiefer@gmx.de>
-           2007,2009,2011, Nick Shaforostoff <shafff@ukr.net>
-           2005,2006, Nicolas GOUTTE <goutte@kde.org>
-           2002,2003, Stanislav Visnovsky <visnovsky@kde.org>
-           2004,2007, Trolltech ASA. All rights reserved
+Copyright: 1989-1991, Free Software Foundation, Inc
+           1999-2000, Matthias Kiefer
+           1999-2000, Matthias Kiefer <matthias.kiefer@gmx.de>
+           2007-2014, Nick Shaforostoff <shafff@ukr.net>
+           2005-2006, Nicolas GOUTTE <goutte@kde.org>
+           2002-2003, Stanislav Visnovsky
+           2002-2003, Stanislav Visnovsky <visnovsky@kde.org>
+           2004-2007, Trolltech ASA
 License: GPL-2+
 
-Files: src/tm/qamodel.cpp
-Copyright: 2011,2012, Nick Shaforostoff <shafff@ukr.net>
-License: GPL-3+
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation, either version 3 of the License, or
- (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General Public
- License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+Files: src/project/poextractor.cpp
+       src/project/poextractor.h
+       src/project/xliffextractor.cpp
+       src/project/xliffextractor.h
+Copyright: 2011, Albert Astals Cid <aacid@kde.org>
+           2009, Jos van den Oever <jos@vandenoever.info>
+           2007, Montel Laurent <montel@kde.org>
+           2014-2015, Nick Shaforostoff <shaforostoff@gmail.com>
+License: LGPL-2.1+
 
 Files: doc/*
 Copyright: 2007-2009, Nick Shaforostoff <shaforostoff@kde.ru>
@@ -106,6 +221,23 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General Public
  License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
 License: GFDL-1.2+
  Permission is granted to copy, distribute and/or modify this document
  under the terms of the GNU Free Documentation License, Version 1.2
@@ -116,3 +248,17 @@ License: GFDL-1.2+
  .
  On Debian systems, the complete text of the GNU Free Documentation
  License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1 can be
+ found in `/usr/share/common-licenses/LGPL-2.1'.
