@@ -33,14 +33,12 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/lokalize.git
 Package: lokalize
 Architecture: any
 Section: devel
-Depends: kdesdk-strigi-plugins,
-         libqt5sql5-sqlite,
+Depends: libqt5sql5-sqlite,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: gettext,
             krosspython,
             python-dbus,
-            python-kde4,
             python-lxml,
             subversion,
             translate-toolkit (>= 1.3.0)
