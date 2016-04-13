@@ -33,9 +33,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/lokalize.git
 Package: lokalize
 Architecture: any
 Section: devel
-Depends: libqt5sql5-sqlite,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
 Recommends: gettext,
             krosspython,
             python-dbus,
