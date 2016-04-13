@@ -1,8 +1,14 @@
-lokalize (4:15.12.2-1~) UNRELEASED; urgency=medium
+lokalize (4:15.12.3-1~1.gbp90d699) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @90d6991d8c027174cf2547bc4154752ae7ab92b7 **
+
+  [ Maximiliano Curia ]
   * New upstream release (15.12.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:51:08 +0100
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:38:32 +0200
 
 lokalize (4:15.12.1-1) experimental; urgency=medium
 
