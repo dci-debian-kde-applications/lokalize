@@ -1,14 +1,15 @@
-lokalize (4:15.12.3-1~1.gbp90d699) UNRELEASED; urgency=medium
+lokalize (4:16.04.0-1~1.gbp6cebac) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @90d6991d8c027174cf2547bc4154752ae7ab92b7 **
+  ** SNAPSHOT build @6cebac6269072a00b0767d172665502a87c17a39 **
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:38:32 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 01:38:12 +0200
 
 lokalize (4:15.12.1-1) experimental; urgency=medium
 
