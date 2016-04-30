@@ -1,6 +1,7 @@
 lokalize (4:15.12.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.2).
+  * Remove unneeded dependencies (Closes: #822439).
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:51:08 +0100
 
