@@ -1,15 +1,20 @@
-lokalize (4:16.04.0-1~1.gbp6cebac) UNRELEASED; urgency=medium
+lokalize (4:16.04.0-1~2.gbpd1d29f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6cebac6269072a00b0767d172665502a87c17a39 **
+  ** SNAPSHOT build @d1d29f507f6fe3a3c6a03ed55d14cf8c1a0655ba **
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
   * Remove unneeded dependencies (Closes: #822439).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add upstream patch: upstream_support_hunspell_1.4.patch.
+    Thanks to Nick Shaforostoff for reporting with the upstream patch
+    (Closes: #821802)
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 01:38:12 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 30 Apr 2016 09:38:17 +0200
 
 lokalize (4:15.12.1-1) experimental; urgency=medium
 
