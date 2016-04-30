@@ -8,7 +8,6 @@ lokalize (4:16.04.0-1~1.gbp6cebac) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
-  * UNRELEASED
 
  -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 01:38:12 +0200
 
