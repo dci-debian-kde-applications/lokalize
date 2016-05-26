@@ -1,10 +1,9 @@
-lokalize (4:16.04.1-1~1.gbp02b733) UNRELEASED; urgency=medium
+lokalize (4:16.04.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @02b733031c29af496cf8387f98627a69ef3b13c6 **
-
+  [ Automatic packaging ]
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 01:38:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 11:05:41 +0200
 
 lokalize (4:16.04.0-1) unstable; urgency=medium
 
