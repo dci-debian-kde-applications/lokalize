@@ -1,3 +1,11 @@
+lokalize (4:16.04.2-1~1.gbpe3a4ae) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e3a4ae06f4a465a4d2f26cf904a63d57c22006f4 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:38:14 +0200
+
 lokalize (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
