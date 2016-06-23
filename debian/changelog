@@ -1,10 +1,8 @@
-lokalize (4:16.04.2-1~1.gbpe3a4ae) UNRELEASED; urgency=medium
+lokalize (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e3a4ae06f4a465a4d2f26cf904a63d57c22006f4 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:38:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 09:47:42 +0200
 
 lokalize (4:16.04.1-1) unstable; urgency=medium
 
