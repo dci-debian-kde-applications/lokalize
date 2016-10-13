@@ -1,6 +1,6 @@
-lokalize (4:16.08.1-1~1.gbp20bcb9) UNRELEASED; urgency=medium
+lokalize (4:16.08.2-1~1.gbpf9e1bf) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @20bcb913f9a00f307de31842c59edfd065a5b12b **
+  ** SNAPSHOT build @f9e1bf99c465d6ebb624ff97b778ec5aab69e6da **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @00cc8255e1837b2cc6925c0371faeed361f8a580 **
@@ -9,8 +9,9 @@ lokalize (4:16.08.1-1~1.gbp20bcb9) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 01:38:34 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:38:29 +0200
 
 lokalize (4:16.04.2-1) unstable; urgency=medium
 
