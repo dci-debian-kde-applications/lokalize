@@ -1,17 +1,12 @@
-lokalize (4:16.08.2-1~1.gbpf9e1bf) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f9e1bf99c465d6ebb624ff97b778ec5aab69e6da **
+lokalize (4:16.08.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @00cc8255e1837b2cc6925c0371faeed361f8a580 **
-
-  * UNRELEASED
+  * New upstream release (16.08.2)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:38:29 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 09:50:41 +0200
 
 lokalize (4:16.04.2-1) unstable; urgency=medium
 
