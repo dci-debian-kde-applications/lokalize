@@ -1,3 +1,11 @@
+lokalize (4:16.08.3-1~1.gbp2e80ed) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2e80ede338d6fe61fe15a84d5428b85af5755365 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 19:38:25 +0100
+
 lokalize (4:16.08.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
