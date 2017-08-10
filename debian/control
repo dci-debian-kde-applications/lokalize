@@ -41,6 +41,8 @@ Recommends: gettext,
             subversion,
             translate-toolkit (>= 1.3.0)
 Suggests: khelpcenter, poxml
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: computer-aided translation system
  Lokalize is a computer-aided translation system that focuses on productivity
  and quality assurance. It has components usual for CAT tools: translation
