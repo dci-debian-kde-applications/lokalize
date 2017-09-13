@@ -1,11 +1,13 @@
-lokalize (4:17.08.1-1~) UNRELEASED; urgency=medium
+lokalize (4:17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
+  * Drop cmake-look-for-hunspell-1.6-as-well.patch, upstream applied a similar patch
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 22:11:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Sep 2017 15:44:17 +0200
 
 lokalize (4:17.08.1-0neon) xenial; urgency=medium
 
