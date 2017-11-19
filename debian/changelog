@@ -10,6 +10,7 @@ lokalize (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will drop
     translations.
   * Bump Standards-Version to 4.1.1, no changes required.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:03:46 +0100
 
@@ -223,7 +224,7 @@ lokalize (4:15.07.90-0ubuntu1) wily; urgency=medium
 lokalize (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
-  * manual merge 
+  * manual merge
   * New upstream release
   * New upstream release
   * Vivid backport
