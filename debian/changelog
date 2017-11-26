@@ -1,5 +1,8 @@
 lokalize (4:17.08.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Adjust once more l10npkgs_firstversion_ok to the fixed version of
+    kde-l10n. (Closes: #882403)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 08:26:56 +0100
 
