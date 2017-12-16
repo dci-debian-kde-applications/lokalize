@@ -1,5 +1,7 @@
 lokalize (4:17.08.3-4) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Recommend sonnet-plugins for spell checking. (Closes: #884515)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Dec 2017 08:22:11 +0100
 
